@@ -1,32 +1,30 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
-import { TbBrandKotlin } from "react-icons/tb";
+import { DiReact, DiJava, DiHtml5,DiNodejsSmall, DiPython  } from "react-icons/di";
+import { SiFirebase, SiGit, SiCss3, SiMysql, } from "react-icons/si";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
+    slug: "React.js",
+    Component: DiReact,
+    title: "Web App",
+    Description: () => <>Web Applications</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
+    slug: "React Native",
+    Component: DiReact,
+    title: "React Native",
     Description: () => <>Cross-platform app development</>,
   },
   {
-    slug: "kotlin",
-    Component: TbBrandKotlin,
-    title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
+    slug: "Next.js",
+    Component: DiNodejsSmall,
+    title: "Next.js",
+    Description: () => <>React.js FrameWork</>,
   },
   {
-    slug: "dart",
-    Component: SiDart,
-    title: "Dart",
-    Description: () => <>Flutter apps only</>,
+    slug: "Python",
+    Component:  DiPython ,
+    title: "Python",
+    Description: () => <>Software Development</>,
   },
   {
     slug: "java",
@@ -55,16 +53,10 @@ export const Skills = [
     Description: () => <>Storing client and user data</>,
   },
   {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
+    slug: "Express.js",
+    Component: DiNodejsSmall,
+    title: "Express.js",
     Description: () => <>Lambda functions for creating APIs</>,
-  },
-  {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Bash",
-    Description: () => <>Ease of life and build scripts</>,
   },
   {
     slug: "firebase",
