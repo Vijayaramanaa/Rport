@@ -1,0 +1,7 @@
+[build]
+  base = "project" # if your project is in a subdirectory
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "16.14.0" # or the Node.js version you're using
